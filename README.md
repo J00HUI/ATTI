@@ -50,12 +50,38 @@
 ## 서비스 소개
 
 
+## 주요 기능
+
 
 
 
 ## 💎 기술 스택
 <img src="https://user-images.githubusercontent.com/83942393/187019618-99c2dd8d-895a-4c46-b572-d009962eb73d.png" width="80%" height="80%">
 </br>
+
+## 시스템 아키텍처
+### 시스템 구성도
+<img src="https://user-images.githubusercontent.com/83942393/187021364-6c86d1f0-e95c-4c0f-9155-2fe578c270c1.png" width="80%" height="80%">
+
+### 배포 흐름도
+<img src="https://user-images.githubusercontent.com/83942393/187021368-ac3dc959-1d0d-447c-8b3d-42ff179b7cd2.png" width="80%" height="80%">
+
+## 🎬📹📼 UCC
+
+## 협업
+### JIRA
+
+### Notion
+
+
+## 문서
+<table>
+  <tr>
+    <td>Figma (화면 설계)</td><td></td>
+  </tr>
+</table>
+
+
 
 
 
