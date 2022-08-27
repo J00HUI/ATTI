@@ -48,6 +48,9 @@
 </br>
 
 ## 서비스 소개
+비대면 수업 만족도가 높아지는 것에 비하여 학습 생산성 향상과 저하는 큰 차이가 없다는 통계 결과가 있습니다. </br>
+생산성 제고를 위해 가장 필요한 것은 교수자와 학습자 사이의 소통 채널이라는 응답 결과가 있습니다. </br>
+이러한 설문 조사 결과와 여러 서비스를 함께 이용하면서 겪은 불편함을 해소하기 위해 "ATTI"를 만들게 되었습니다. </br>
 </br>
 
 ## 주요 기능
@@ -86,8 +89,8 @@
 </br>
 
 ## 시간표 생성
-- 관리자는 원하는 시간대를 클릭하여 수업 시간표를 생성할 수 있습니다.
-
+- 관리자는 시간표의 빈 공간을 클릭하여 수업 시간표를 생성, 삭제 및 수정할 수 있습니다.
+- 생성된 수업의 접속하기 버튼을 통해 화상 미팅실로 이동됩니다.
 | |
 |:-------:|
 |![시간표 생성](https://user-images.githubusercontent.com/83942393/187027752-a87fe82e-93ce-466f-88e0-50adac5020ae.gif) |
@@ -95,7 +98,7 @@
 
 ## 수업실 입장
 - 학생은 접속하기 버튼을 통해 화상 미팅실로 이동하며, 자동으로 출석체크가 됩니다.
-- 수업 시간 시작 30분 전부터 수업 시작 시간까지 접속할 시 출석으로 인정되며, 이후에는 지각, 수업 시작 종료 후에는 접속하기 버튼은 비활성화되며 결석으로 처리됩니다.
+- 수업 시작 시간 30분 전부터 수업 시작 시간까지는 출석으로 인정되며, 이후에는 지각, 수업 시작 종료 후에는 접속하기 버튼은 비활성화되며 결석으로 처리됩니다.
 
 | |
 |:-------:|
@@ -104,35 +107,47 @@
 
 | |
 |:-------:|
-|![수업실 찐입장](https://user-images.githubusercontent.com/83942393/187027979-049137f1-3581-4b8b-b64a-4ab189b58923.gif)
- |
+|![수업실 찐입장](https://user-images.githubusercontent.com/83942393/187027979-049137f1-3581-4b8b-b64a-4ab189b58923.gif) |
 </br>
 
-## 
+## 수업실
+- 입장과 동시에 접속자와 미접속자가 구분되어 한 눈에 결석자를 파악할 수 있습니다.
+
+| 접속자 미접속자 구분 |
+|:-------:|
+|![접속자미접속자](https://user-images.githubusercontent.com/83942393/187028113-c5953978-f967-48db-b1d5-2a89eb36fdee.png) |
+</br>
+
+- 
+| 접속자 미접속자 구분 |
+|:-------:|
+|![접속자미접속자](https://user-images.githubusercontent.com/83942393/187028113-c5953978-f967-48db-b1d5-2a89eb36fdee.png) |
+</br>
+![QnA 작성](https://user-images.githubusercontent.com/83942393/187029697-c9e686a1-8771-4ec5-bd6b-d7e80c198cd5.gif)
 
 ## 출결 변경
 - 관리자는 학생의 출결을 변경하고자 하는 날짜를 클릭 시 그 날짜에 해당하는 수업 목록이  
 ![출석 변경](https://user-images.githubusercontent.com/83942393/187027995-87b99162-a4ef-415d-8d39-9b26a8bfec78.gif)
 
-## 화상 미팅실 (수업실)
-![접속자미접속자](https://user-images.githubusercontent.com/83942393/187028113-c5953978-f967-48db-b1d5-2a89eb36fdee.png)
-
 
 </br>
+
 ## 💎 기술 스택
-<img src="https://user-images.githubusercontent.com/83942393/187019618-99c2dd8d-895a-4c46-b572-d009962eb73d.png" width="80%" height="80%">
+<img src="https://user-images.githubusercontent.com/83942393/187019618-99c2dd8d-895a-4c46-b572-d009962eb73d.png" width="60%" height="60%">
 </br>
 
-## 시스템 아키텍처
-### 시스템 구성도
-<img src="https://user-images.githubusercontent.com/83942393/187021364-6c86d1f0-e95c-4c0f-9155-2fe578c270c1.png" width="80%" height="80%">
+## 🛠 시스템 아키텍처
+| 시스템 구성도 |
+|:-------:|
+|<img src="https://user-images.githubusercontent.com/83942393/187021364-6c86d1f0-e95c-4c0f-9155-2fe578c270c1.png" width="60%" height="60%"> |
 </br>
 
-### 배포 흐름도
-<img src="https://user-images.githubusercontent.com/83942393/187021368-ac3dc959-1d0d-447c-8b3d-42ff179b7cd2.png" width="80%" height="80%">
+| 배포 흐름도 |
+|:-------:|
+|<img src="https://user-images.githubusercontent.com/83942393/187021368-ac3dc959-1d0d-447c-8b3d-42ff179b7cd2.png" width="70%" height="70%"> |
 </br>
 
-## 🎬📹📼 UCC
+## 📹 UCC
 </br>
 
 ## 협업
