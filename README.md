@@ -110,20 +110,65 @@
 |![수업실 찐입장](https://user-images.githubusercontent.com/83942393/187027979-049137f1-3581-4b8b-b64a-4ab189b58923.gif) |
 </br>
 
-## 수업실
+##  접속자 미접속자 구분 
 - 입장과 동시에 접속자와 미접속자가 구분되어 한 눈에 결석자를 파악할 수 있습니다.
 
-| 접속자 미접속자 구분 |
+| |
 |:-------:|
 |![접속자미접속자](https://user-images.githubusercontent.com/83942393/187028113-c5953978-f967-48db-b1d5-2a89eb36fdee.png) |
 </br>
 
-- 
-| 접속자 미접속자 구분 |
+## QnA 작성
+- 수업 중 궁금한 내용이 있다면 QnA 카테고리로 변경하여 질문을 남길 수 있습니다.
+- 일반 채팅과 색이 구분되며 채팅 상단에 고정됩니다.
+
+| QnA 작성 |
 |:-------:|
-|![접속자미접속자](https://user-images.githubusercontent.com/83942393/187028113-c5953978-f967-48db-b1d5-2a89eb36fdee.png) |
+|![QnA 작성](https://user-images.githubusercontent.com/83942393/187029697-c9e686a1-8771-4ec5-bd6b-d7e80c198cd5.gif) |
 </br>
-![QnA 작성](https://user-images.githubusercontent.com/83942393/187029697-c9e686a1-8771-4ec5-bd6b-d7e80c198cd5.gif)
+
+## 답변 작성
+- 수업 중 올라온 질문에 대해 수업 호스트만이 답변을 달 수 있습니다.
+
+|  |
+|:-------:|
+|![답변 남김](https://user-images.githubusercontent.com/83942393/187029916-02cf82ac-6314-46ef-96dd-5c110f0633d2.gif) |
+</br>
+
+## 질문 게시판 자동 업로드
+- 수업 중 올라온 질문과 답변은 질문 게시판과 연동되어 자동으로 업로드 됩니다.
+- 수업이 종료되어도 다시 확인할 수 있습니다.
+
+|  |
+|:-------:|
+|![질문 게시판 답변](https://user-images.githubusercontent.com/83942393/187029968-65f95b45-589e-4f44-b488-18f0707ffa76.gif) |
+</br>
+
+## 1:1 채팅 구분
+- 1:1 채팅 시 전체 채팅과 헷갈리지 않도록 다른 색으로 구분하였습니다.
+
+|  |
+|:-------:|
+|![1대1](https://user-images.githubusercontent.com/83942393/187030019-5f72d68f-e804-4194-8d66-30ea8d66b652.gif) |
+</br>
+
+## 마이크 On/Off , 카메라 On/Off
+![카메라 onoff](https://user-images.githubusercontent.com/83942393/187030088-dee2282d-cbe7-4a5c-8745-49961664b555.gif)
+
+## 화면 공유, 레이아웃 변경
+![화면공유 및 레이아웃 변경](https://user-images.githubusercontent.com/83942393/187030129-f32f8461-4ab8-467a-8a14-907a7c0e964c.gif)
+
+## 익명 모드
+- 호스트의 수업 참여 유도와 발표가 쑥쓰러운 친구를 위한 익명 모드 발표 기능입니다.
+- 익명 모드 활설화 시 "익명모드가 활성화 되었습니다" 라는 음성과 함께 모든 참여자의 이름과 카메라가 가려지며, 채팅을 치면 해당 내용을 TTS 가 대신 읽어주는 기능입니다.
+
+![익명모드](https://user-images.githubusercontent.com/83942393/187030136-6181e9b5-15cd-444c-a576-7247c17cde5b.gif)
+
+- 호스트가 수락 시 활성화가 됩니다.
+![익명모드 수락](https://user-images.githubusercontent.com/83942393/187030190-3f75214b-c9e5-4494-b698-7c0047af37cb.gif)
+
+## 채팅창 및 참가자 목록 레이아웃 변경
+![참가자목록, 채팅창 열고 닫기](https://user-images.githubusercontent.com/83942393/187030203-7f04f016-4fe7-46bc-bddb-245621d3cfe7.gif)
 
 ## 출결 변경
 - 관리자는 학생의 출결을 변경하고자 하는 날짜를 클릭 시 그 날짜에 해당하는 수업 목록이  
