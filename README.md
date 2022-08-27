@@ -47,8 +47,14 @@
 </table>
 </br>
 
-## 기술 스택
-![1](https://user-images.githubusercontent.com/83942393/187018455-8e172575-df4e-4d00-9468-74b2b5ed86dc.PNG)
+## 서비스 소개
+
+
+
+
+
+## 💎 기술 스택
+<img src="https://user-images.githubusercontent.com/83942393/187019618-99c2dd8d-895a-4c46-b572-d009962eb73d.png" width="80%" height="80%">
 </br>
 
 
