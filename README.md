@@ -48,12 +48,20 @@
 </br>
 
 ## 서비스 소개
-
+</br>
 
 ## 주요 기능
+### 채널 생성
+- 회원 누구나 채널 생성이 가능하며 채널 생성 시 해당 채널의 관리자가 됩니다.
+- 관리자는 관리자 페이지에 생성된 초대 코드를 통해 회원을 초대할 수 있습니다.
 
+| |
+|:-------:|
+| ![싸피UCC제출용_고화질_AdobeExpress_AdobeExpress](https://user-images.githubusercontent.com/83942393/187025579-5113d275-3538-4e07-a6df-5927f73f835a.gif) |
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/83942393/187025883-c2d29332-e572-4e45-9388-87a651adfbe9.gif)
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/83942393/187025916-0b242fe5-e9e6-44b6-ab05-b888bb929348.gif)
 
-
+</br>
 
 ## 💎 기술 스택
 <img src="https://user-images.githubusercontent.com/83942393/187019618-99c2dd8d-895a-4c46-b572-d009962eb73d.png" width="80%" height="80%">
@@ -62,17 +70,21 @@
 ## 시스템 아키텍처
 ### 시스템 구성도
 <img src="https://user-images.githubusercontent.com/83942393/187021364-6c86d1f0-e95c-4c0f-9155-2fe578c270c1.png" width="80%" height="80%">
+</br>
 
 ### 배포 흐름도
 <img src="https://user-images.githubusercontent.com/83942393/187021368-ac3dc959-1d0d-447c-8b3d-42ff179b7cd2.png" width="80%" height="80%">
+</br>
 
 ## 🎬📹📼 UCC
+</br>
 
 ## 협업
 ### JIRA
+</br>
 
 ### Notion
-
+</br>
 
 ## 문서
 <table>
