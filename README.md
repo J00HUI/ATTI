@@ -151,7 +151,7 @@
 
 | |
 |:-------|
-|<img src="https://user-images.githubusercontent.com/83942393/187028113-c5953978-f967-48db-b1d5-2a89eb36fdee.png" width="100%" height="100%"> |
+|<img src="https://user-images.githubusercontent.com/83942393/187028113-c5953978-f967-48db-b1d5-2a89eb36fdee.png" width="80%" height="80%"> |
 </br>
 
 ### QnA 작성
