@@ -1,0 +1,6 @@
+body {
+  margin: 0;
+}
+.target::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera*/
+}

@@ -1,0 +1,156 @@
+import org.apache.tools.ant.filters.ReplaceTokens
+
+buildscript{
+    ext {
+        // springBootVer = '2.4.5'
+        // 기존 버전으로 수정
+        springBootVer = '2.7.2'
+        springDependencyMgmtVer = '1.0.11'
+        springLoadedVer = '1.2.8'
+    }
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+    dependencies {
+        classpath "org.springframework.boot:spring-boot-gradle-plugin:${springBootVer}"
+        classpath "io.spring.gradle:dependency-management-plugin:${springDependencyMgmtVer}.RELEASE"
+        classpath "org.springframework:springloaded:${springLoadedVer}.RELEASE"
+    }
+}
+
+plugins {
+	id 'io.spring.dependency-management' version '1.0.12.RELEASE'
+	id 'java'
+	id 'idea'
+	id 'org.springframework.boot' version "${springBootVer}"
+	
+}
+
+
+apply plugin: 'io.spring.dependency-management'
+apply plugin: 'eclipse'
+
+repositories {
+    mavenCentral()
+    maven { url 'https://repo.spring.io/snapshot' }
+    maven { url 'https://repo.spring.io/milestone' }
+    maven { url "https://repo.spring.io/libs-release" }
+    maven { url "https://repo.maven.apache.org/maven2" }
+    maven { url "https://build.shibboleth.net/nexus/content/repositories/releases" }
+}
+
+group = 'com.ssafy'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+	providedRuntime
+}
+
+
+//set build time and inject value to application.properties
+def buildTime() {
+    def date = new Date()
+    def formattedDate = date.format('yyyyMMdd_HHmm')
+    return formattedDate
+}
+
+project.ext.set("build.date", buildTime())
+
+processResources {
+    with copySpec {
+        from "src/main/resources"
+        include "**/application*.yml"
+        include "**/application*.yaml"
+        include "**/application*.properties"
+        project.properties.findAll().each {
+            prop ->
+               if (prop.value != null) {
+                     filter(ReplaceTokens, tokens: [ (prop.key): String.valueOf(prop.value)])
+                     filter(ReplaceTokens, tokens: [ ('project.' + prop.key): String.valueOf(prop.value)])
+                     filter(ReplaceTokens, tokens: [ ('project.ext.' + prop.key): String.valueOf(prop.value)])
+               }
+        }
+    }
+}
+
+
+tasks {
+
+    processResources {
+        duplicatesStrategy = org.gradle.api.file.DuplicatesStrategy.INCLUDE
+    }
+    }
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-validation'
+	implementation 'org.springframework.boot:spring-boot-starter-actuator'
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+	implementation 'org.springframework.boot:spring-boot-starter-mustache'
+
+	implementation 'org.springframework.boot:spring-boot-starter-security'
+
+
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-web-services'
+	implementation 'org.springframework.boot:spring-boot-starter-websocket'
+	
+	implementation group: 'io.springfox', name: 'springfox-swagger2', version: '3.0.0'
+	implementation group: 'io.springfox', name: 'springfox-swagger-ui', version: '3.0.0'
+	implementation("com.auth0:java-jwt:3.10.3")
+	implementation("com.google.guava:guava:29.0-jre")
+	
+	developmentOnly 'org.springframework.boot:spring-boot-devtools:2.7.2'
+	
+	implementation group: 'io.springfox', name: 'springfox-swagger2', version: '3.0.0'
+	
+	implementation group: 'io.springfox', name: 'springfox-swagger-ui', version: '3.0.0'
+	
+	compileOnly 'org.projectlombok:lombok'
+	runtimeOnly 'mysql:mysql-connector-java'
+	
+	annotationProcessor 'org.projectlombok:lombok'
+	// JpaRepository 인식
+	annotationProcessor("org.springframework.boot:spring-boot-starter-data-jpa")
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testImplementation 'org.springframework.security:spring-security-test'
+	
+	// Json 추가
+	// https://mvnrepository.com/artifact/org.json/json
+	implementation group: 'org.json', name: 'json', version: '20220320'
+	
+	// https://mvnrepository.com/artifact/com.google.code.gson/gson
+	implementation group: 'com.google.code.gson', name: 'gson', version: '2.9.0'
+	
+	//JUnit4 추가
+	testImplementation("org.junit.vintage:junit-vintage-engine") {
+		exclude group: "org.hamcrest", module: "hamcrest-core"
+	
+	//STOMP 웹소캣 서버 사이드 테스트를 위한 의존성 추가
+    implementation("org.springframework.boot:spring-boot-starter-mustache")
+    //STOMP 관련 프론트 라이브러리
+    implementation('org.webjars.bower:jquery:3.3.1')
+    implementation('org.webjars:sockjs-client:1.1.2')
+    implementation('org.webjars:stomp-websocket:2.3.3-1')
+    implementation('org.webjars:webjars-locator:0.30')
+    //WebRTC 클라이언트 의존성 추가
+    implementation('org.webjars.bower:webrtc-adapter:7.4.0')
+    //Kurento (미디어서버) 관련 의존성 추가
+    implementation('org.kurento:kurento-client:6.16.0')
+    implementation('org.kurento:kurento-utils-js:6.15.0')
+    
+    // Openvidu 의존성
+    implementation group: 'io.openvidu', name: 'openvidu-java-client', version: '2.22.0'
+    
+	}
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}

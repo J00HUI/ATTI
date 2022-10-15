@@ -1,0 +1,86 @@
+plugins {
+	id 'org.springframework.boot' version '2.7.2'
+	id 'io.spring.dependency-management' version '1.0.12.RELEASE'
+	id 'java'
+}
+
+
+apply plugin: 'io.spring.dependency-management'
+apply plugin: 'eclipse'
+// apply plugin: 'com.github.node-gradle.node'
+//이클립스인 경우를 위한 QueryDSL 플러그인. IntelliJ는 불필요.
+// apply plugin: 'com.ewerk.gradle.plugins.querydsl'
+
+group = 'com.ssafy'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+repositories {
+	mavenCentral()
+	maven { url 'https://repo.spring.io/snapshot' }
+    maven { url 'https://repo.spring.io/milestone' }
+    maven { url "https://repo.spring.io/libs-release" }
+    maven { url "https://repo.maven.apache.org/maven2" }
+    maven { url "https://build.shibboleth.net/nexus/content/repositories/releases" }
+}
+
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-validation'
+	implementation 'org.springframework.boot:spring-boot-starter-actuator'
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+	implementation 'org.springframework.boot:spring-boot-starter-mustache'
+	implementation 'org.springframework.boot:spring-boot-starter-security'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-web-services'
+	implementation 'org.springframework.boot:spring-boot-starter-websocket'
+	
+	
+	implementation("com.auth0:java-jwt:3.10.3")
+	implementation("com.google.guava:guava:29.0-jre")
+	
+	developmentOnly 'org.springframework.boot:spring-boot-devtools:2.7.2'
+	
+	compileOnly 'org.projectlombok:lombok'
+	runtimeOnly 'mysql:mysql-connector-java'
+	
+	annotationProcessor 'org.projectlombok:lombok'
+	// JpaRepository 인식
+	annotationProcessor("org.springframework.boot:spring-boot-starter-data-jpa")
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testImplementation 'org.springframework.security:spring-security-test'
+	
+	// Json 추가
+	// https://mvnrepository.com/artifact/org.json/json
+	implementation group: 'org.json', name: 'json', version: '20220320'
+	
+	// https://mvnrepository.com/artifact/com.google.code.gson/gson
+	implementation group: 'com.google.code.gson', name: 'gson', version: '2.9.0'
+	
+	//JUnit4 추가
+	testImplementation("org.junit.vintage:junit-vintage-engine") {
+		exclude group: "org.hamcrest", module: "hamcrest-core"
+	}
+	
+	// https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt-api
+	implementation group: 'io.jsonwebtoken', name: 'jjwt-api', version: '0.11.5'
+	
+	//Swagger
+    //implementation("io.springfox:springfox-swagger2:3.0.0")
+    //implementation("io.springfox:springfox-swagger-ui:3.0.0")
+    //implementation("io.springfox:springfox-boot-starter:3.0.0")
+    //implementation("io.springfox:springfox-data-rest:3.0.0")
+    //implementation("io.springfox:springfox-bean-validators:3.0.0")
+    
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
