@@ -255,6 +255,7 @@
 <img src="https://user-images.githubusercontent.com/83942393/195986092-88c4b141-b69c-4277-ba58-5ea8285d00b4.png" width="50%" >
 </div>
 </details>
+</br>
 
 ### 🛠 시스템 아키텍처
 | 시스템 구성도 |
