@@ -248,7 +248,13 @@
 ### 💎 기술 스택
 <img src="https://user-images.githubusercontent.com/83942393/187019618-99c2dd8d-895a-4c46-b572-d009962eb73d.png" width="60%" height="60%">
 </br>
-버전 정보
+
+<details>
+<summary>버전 정보</summary>
+<div markdown="1">
+<img src="https://user-images.githubusercontent.com/83942393/195986092-88c4b141-b69c-4277-ba58-5ea8285d00b4.png" width="50%" >
+</div>
+</details>
 
 ### 🛠 시스템 아키텍처
 | 시스템 구성도 |
