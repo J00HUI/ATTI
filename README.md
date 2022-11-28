@@ -2,7 +2,7 @@
   <br />
   <img src="https://user-images.githubusercontent.com/83942393/187016711-a48c760e-8ffb-4a38-94c2-d5623cb1706f.png" width="20%" height="20%" alt="ATTI" />
   <br />
-  <h1>ATTI</br><h3>✏자체 커뮤니티와 함께 화상회의가 가능한 교육 플랫폼, ATTI 👩🏻‍🏫</h3></h1>
+  <h3>✏자체 커뮤니티와 함께 화상회의가 가능한 교육 플랫폼, ATTI 👨🏻‍🏫 </h3>
   <br />
 </div>
 </br>
