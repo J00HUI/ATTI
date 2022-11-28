@@ -20,7 +20,7 @@
 
 ## 💡 서비스 소개
 비대면 수업이 늘어나면서 생산성 제고를 위해 가장 필요한 것은 교수자와 학습자 사이의 소통 채널이라는 응답 결과가 있습니다. </br>
-이러한 설문 조사 결과와 여러 서비스를 함께 이용하면서 겪은 불편함을 해소하기 위해 자체 커뮤니티와 화상회의가 가능한 플랫폼 "ATTI"를 제작하게 되었습니다.</br>
+이러한 설문 조사 결과와 여러 서비스를 함께 이용하면서 겪은 불편함을 해소하기 위해 여러 서비스가 통합된 자체 커뮤니티와 화상회의가 가능한 플랫폼 "ATTI"를 제작하게 되었습니다.</br>
 </br>
 
 ## 📅 개발 기간
@@ -29,33 +29,6 @@
 - 기획 및 설계 : 07.11 ~ 07.24 </br> 
 - 개발 : 07.25 ~ 08.19 </br>
 - 버그 수정 및 산출물 정리 : 08.15 ~ 08.19 </br>
-</br>
-
-## 👩🏻‍🚀 개발 멤버 소개
-<table>
-  <tr>
-    <td height="140px" align="center"><a href="https://github.com/TypingOK">
-      <img src="https://avatars.githubusercontent.com/TypingOK" width="140px"/> <br><br> 정진 <br>(Front-End) </a> <br></td>
-    <td height="140px" align="center"><a href="https://github.com/LeeHyeonT">
-      <img src="https://avatars.githubusercontent.com/LeeHyeonT" width="140px"/> <br><br> 이현태 <br>(Front-End) </a> <br></td>
-    <td height="140px" align="center"><a href="https://github.com/yeonsu-k">
-      <img src="https://avatars.githubusercontent.com/yeonsu-k" width="140px"/> <br><br> 김연수 <br>(Front-End) </a> <br></td>
-    <td height="140px" align="center"><a href="https://github.com/lhynjn9">
-      <img src="https://avatars.githubusercontent.com/lhynjn9" width="140px"/> <br><br> 이현정 <br>(Back-End) </a> <br></td>
-    <td height="140px" align="center"><a href="https://github.com/ssafypark">
-      <img src="https://avatars.githubusercontent.com/ssafypark" width="140px"/> <br><br> 박범수 <br>(Back-End) </a> <br></td>
-    <td height="140px" align="center"><a href="https://github.com/J00HUI">
-      <img src="https://avatars.githubusercontent.com/J00HUI" width="140px"/> <br><br> 이주희 <br>(Back-End) </a> <br></td>
-  </tr>
-  <tr>
-      <td align="center">👑<br/>React<br/>WebRTC</td>
-      <td align="center">UI/UX<br/>React</td>
-      <td align="center">UI/UX<br/>React</td>
-      <td align="center">Database<br/>CI/CD<br/>WebRTC</td>
-      <td align="center">REST API</td>
-      <td align="center">REST API</td>
-  </tr>
-</table>
 </br>
 
 ## 💻 주요 기능
@@ -133,6 +106,7 @@
 ### 수업실 입장
 - 학생은 접속하기 버튼을 통해 화상 미팅실로 이동하며, 자동으로 출석체크가 됩니다.
 - 수업 시작 시간 30분 전부터 수업 시작 시간까지는 출석으로 인정되며, 이후에는 지각, 수업 시작 종료 후에는 접속하기 버튼은 비활성화되며 결석으로 처리됩니다.
+- 출석 체크와 수업실 입장이 따로 분리되어 있는 기존의 서비스의 불편함을 해소했습니다.
 
 | |
 |:-------:|
@@ -205,7 +179,7 @@
 
 ### 익명 모드
 - 호스트의 수업 참여 유도와 발표가 쑥쓰러운 친구를 위한 익명 모드 발표 기능입니다.
-- 익명 모드 활설화 시 "익명모드가 활성화 되었습니다" 라는 음성과 함께 모든 참여자의 이름과 카메라가 가려지며, 채팅을 치면 해당 내용을 TTS 가 대신 읽어주는 기능입니다.
+- 익명 모드 활설화 시 "익명모드가 활성화 되었습니다" 라는 음성과 함께 모든 참여자의 이름과 카메라가 가려지며, 채팅을 치면 해당 내용을 TTS 가 대신 읽어 원활한 발표가 가능합니다.
 
 |  |
 |:-------:|
@@ -230,7 +204,7 @@
 
 ### 출결 변경
 - 관리자는 학생의 출결을 변경할 수 있습니다.
-- 날짜를 클릭하면 해당 날짜에 개설되었던 수업 목록이 나오고, 수업 목록을 클릭 시 학생들의 출결을 변경할 수 있습니다.
+- 날짜를 클릭하면 해당 날짜에 개설되었던 수업 목록이 나오며, 수업 목록을 클릭 시 학생들의 출결을 변경할 수 있습니다.
 
 |  |
 |:-------:|
@@ -274,6 +248,33 @@
 | ![3](https://user-images.githubusercontent.com/83942393/195985643-03f9c60c-3204-4347-b0fc-a604c01db3f6.PNG)
 ![4](https://user-images.githubusercontent.com/83942393/195985665-02bb7c21-46e5-4802-b4c2-56781236fc62.PNG)
 ![6](https://user-images.githubusercontent.com/83942393/195985671-69949a58-9c91-426d-a8fd-76a74cb3c064.PNG) |
+</br>
+
+## 👩🏻‍🚀 개발 멤버 소개
+<table>
+  <tr>
+    <td height="140px" align="center"><a href="https://github.com/TypingOK">
+      <img src="https://avatars.githubusercontent.com/TypingOK" width="140px"/> <br><br> 정진 <br>(Front-End) </a> <br></td>
+    <td height="140px" align="center"><a href="https://github.com/LeeHyeonT">
+      <img src="https://avatars.githubusercontent.com/LeeHyeonT" width="140px"/> <br><br> 이현태 <br>(Front-End) </a> <br></td>
+    <td height="140px" align="center"><a href="https://github.com/yeonsu-k">
+      <img src="https://avatars.githubusercontent.com/yeonsu-k" width="140px"/> <br><br> 김연수 <br>(Front-End) </a> <br></td>
+    <td height="140px" align="center"><a href="https://github.com/lhynjn9">
+      <img src="https://avatars.githubusercontent.com/lhynjn9" width="140px"/> <br><br> 이현정 <br>(Back-End) </a> <br></td>
+    <td height="140px" align="center"><a href="https://github.com/ssafypark">
+      <img src="https://avatars.githubusercontent.com/ssafypark" width="140px"/> <br><br> 박범수 <br>(Back-End) </a> <br></td>
+    <td height="140px" align="center"><a href="https://github.com/J00HUI">
+      <img src="https://avatars.githubusercontent.com/J00HUI" width="140px"/> <br><br> 이주희 <br>(Back-End) </a> <br></td>
+  </tr>
+  <tr>
+      <td align="center">👑<br/>React<br/>WebRTC</td>
+      <td align="center">UI/UX<br/>React</td>
+      <td align="center">UI/UX<br/>React</td>
+      <td align="center">Database<br/>CI/CD<br/>WebRTC</td>
+      <td align="center">REST API</td>
+      <td align="center">REST API</td>
+  </tr>
+</table>
 </br>
 
 
