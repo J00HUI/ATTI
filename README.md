@@ -28,7 +28,7 @@
 
 </br>
 
-## 💎 기술 스택
+# 💎 기술 스택
 <img src="https://user-images.githubusercontent.com/83942393/187019618-99c2dd8d-895a-4c46-b572-d009962eb73d.png" width="60%" height="60%">
 </br>
 
@@ -40,7 +40,7 @@
 </details>
 </br>
 
-## 🛠 시스템 아키텍처
+# 🛠 시스템 아키텍처
 | 시스템 구성도 |
 |:-------:|
 |<img src="https://user-images.githubusercontent.com/83942393/187021364-6c86d1f0-e95c-4c0f-9155-2fe578c270c1.png" width="50%" > |
