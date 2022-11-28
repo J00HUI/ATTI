@@ -2,24 +2,27 @@
   <br />
   <img src="https://user-images.githubusercontent.com/83942393/187016711-a48c760e-8ffb-4a38-94c2-d5623cb1706f.png" width="20%" height="20%" alt="ATTI" />
   <br />
-  <h1>ATTI</br>✏자체 커뮤니티와 함께 화상회의가 가능한 교육 플랫폼, ATTI👩</h1>
+  <h1>ATTI</br><h3>✏자체 커뮤니티와 함께 화상회의가 가능한 교육 플랫폼, ATTI 👩🏻‍🏫</h3></h1>
   <br />
 </div>
 </br>
 
-## 🔦 목차
+# 🔦 목차
 1. 서비스 소개
 2. 개발 기간
 3. 주요 기능
-4. 개발 멤버 소개
+4. 기술 스택
+5. 시스템 아키텍쳐
+6. 협업
+7. 개발 멤버 소개
 </br>
 
-## 💡 서비스 소개
+# 💡 서비스 소개
 비대면 수업이 늘어나면서 생산성 제고를 위해 가장 필요한 것은 교수자와 학습자 사이의 소통 채널이라는 응답 결과가 있습니다. </br>
 이러한 설문 조사 결과와 여러 서비스를 함께 이용하면서 겪은 불편함을 해소하기 위해 여러 서비스가 통합된 자체 커뮤니티와 화상회의가 가능한 플랫폼 "ATTI"를 제작하게 되었습니다.</br>
 </br>
 
-## 📅 개발 기간
+# 📅 개발 기간
 > 2022.07.11 ~ 2022.08.19 </br>
 
 - 기획 및 설계 : 07.11 ~ 07.24 </br> 
@@ -27,7 +30,7 @@
 - 버그 수정 및 산출물 정리 : 08.15 ~ 08.19 </br>
 </br>
 
-## 💻 주요 기능
+# 💻 주요 기능
 ### 홈화면
 - 해당 서비스의 주요 기능을 확인할 수 있습니다.
 
@@ -215,7 +218,7 @@
 |![회원탈퇴](https://user-images.githubusercontent.com/83942393/187181935-617956df-7fc2-486e-87f2-e48201c38fa9.gif) |
 </br>
 
-### 💎 기술 스택
+## 💎 기술 스택
 <img src="https://user-images.githubusercontent.com/83942393/187019618-99c2dd8d-895a-4c46-b572-d009962eb73d.png" width="60%" height="60%">
 </br>
 
@@ -227,7 +230,7 @@
 </details>
 </br>
 
-### 🛠 시스템 아키텍처
+## 🛠 시스템 아키텍처
 | 시스템 구성도 |
 |:-------:|
 |<img src="https://user-images.githubusercontent.com/83942393/187021364-6c86d1f0-e95c-4c0f-9155-2fe578c270c1.png" width="50%" > |
@@ -238,7 +241,7 @@
 |<img src="https://user-images.githubusercontent.com/83942393/187021368-ac3dc959-1d0d-447c-8b3d-42ff179b7cd2.png" width="70%" height="70%"> |
 </br>
 
-### 협업 (JIRA, Notion)
+## 협업 (JIRA, Notion)
 | Notion |
 |:-------:|
 | ![3](https://user-images.githubusercontent.com/83942393/195985643-03f9c60c-3204-4347-b0fc-a604c01db3f6.PNG)
@@ -246,7 +249,7 @@
 ![6](https://user-images.githubusercontent.com/83942393/195985671-69949a58-9c91-426d-a8fd-76a74cb3c064.PNG) |
 </br>
 
-## 👩🏻‍🚀 개발 멤버 소개
+# 👩🏻‍🚀 개발 멤버 소개
 <table>
   <tr>
     <td height="140px" align="center"><a href="https://github.com/TypingOK">
