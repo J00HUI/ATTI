@@ -23,7 +23,7 @@
 # ⚙ 프로젝트 설계
 ### [Figma](https://www.figma.com/file/FL2XIeTXKpEtYrBUwfh5W7/SSAFY-7-%EA%B3%B5%ED%86%B5-PJT?node-id=0%3A1&t=VtcNxEayndlPBLFS-1) / [기능명세서 / API DOCS / 제약사항 버그 목록](https://docs.google.com/spreadsheets/d/1BtzGSRUesQ0SHBUjZJilxCsOAPdC_fqs18zJybrNYmQ/edit?usp=sharing)
 
-### ERD 
+### 📊 ERD 
 ![100 PNG](https://user-images.githubusercontent.com/83942393/204210750-35f6e7ad-cf57-49f6-b955-92a96e8ee0fd.png)
 
 </br>
