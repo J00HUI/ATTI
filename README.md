@@ -7,7 +7,7 @@
 </div>
 </br>
 
-# 목차
+# 🔎 목차
 1. 서비스 소개
 2. 개발 기간
 3. 프로젝트 설계
@@ -32,8 +32,8 @@
 </br>
 
 # ⚙ 프로젝트 설계
-### [Figma](https://www.figma.com/file/FL2XIeTXKpEtYrBUwfh5W7/SSAFY-7-%EA%B3%B5%ED%86%B5-PJT?node-id=0%3A1&t=VtcNxEayndlPBLFS-1)
-### [개발 공통 참고 문서 (기능명세서, API DOCS, 제약사항, 버그 목록)](https://docs.google.com/spreadsheets/d/1BtzGSRUesQ0SHBUjZJilxCsOAPdC_fqs18zJybrNYmQ/edit?usp=sharing)
+### [Figma](https://www.figma.com/file/FL2XIeTXKpEtYrBUwfh5W7/SSAFY-7-%EA%B3%B5%ED%86%B5-PJT?node-id=0%3A1&t=VtcNxEayndlPBLFS-1) / [개발 공통 참고 문서 (기능명세서, API DOCS, 제약사항, 버그 목록)](https://docs.google.com/spreadsheets/d/1BtzGSRUesQ0SHBUjZJilxCsOAPdC_fqs18zJybrNYmQ/edit?usp=sharing)
+
 ### ERD 
 ![100 PNG](https://user-images.githubusercontent.com/83942393/204210750-35f6e7ad-cf57-49f6-b955-92a96e8ee0fd.png)
 
@@ -250,7 +250,7 @@
 |<img src="https://user-images.githubusercontent.com/83942393/187021368-ac3dc959-1d0d-447c-8b3d-42ff179b7cd2.png" width="70%" height="70%"> |
 </br>
 
-## 협업 (JIRA, Notion)
+## ⌚ 협업 (JIRA, Notion)
 | Notion |
 |:-------:|
 | ![3](https://user-images.githubusercontent.com/83942393/195985643-03f9c60c-3204-4347-b0fc-a604c01db3f6.PNG)
