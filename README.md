@@ -2,7 +2,7 @@
   <br />
   <img src="https://user-images.githubusercontent.com/83942393/187016711-a48c760e-8ffb-4a38-94c2-d5623cb1706f.png" width="20%" height="20%" alt="ATTI" />
   <br />
-  <h1>ATTI 👨🏻‍🏫 </br><h3>✏자체 커뮤니티와 함께 화상회의가 가능한 교육 플랫폼, ATTI 👩🏻‍🏫</h3></h1>
+  <h1>ATTI</br><h3>✏자체 커뮤니티와 함께 화상회의가 가능한 교육 플랫폼, ATTI 👩🏻‍🏫</h3></h1>
   <br />
 </div>
 </br>
@@ -10,11 +10,12 @@
 # 🔦 목차
 1. 서비스 소개
 2. 개발 기간
-3. 주요 기능
-4. 기술 스택
-5. 시스템 아키텍쳐
-6. 협업
-7. 개발 멤버 소개
+3. 프로젝트 설계
+4. 주요 기능
+5. 기술 스택
+6. 시스템 아키텍쳐
+7. 협업
+8. 개발 멤버 소개
 </br>
 
 # 💡 서비스 소개
@@ -28,6 +29,14 @@
 - 기획 및 설계 : 07.11 ~ 07.24 </br> 
 - 개발 : 07.25 ~ 08.19 </br>
 - 버그 수정 및 산출물 정리 : 08.15 ~ 08.19 </br>
+</br>
+
+# ⚙ 프로젝트 설계
+### [Figma](https://www.figma.com/file/FL2XIeTXKpEtYrBUwfh5W7/SSAFY-7-%EA%B3%B5%ED%86%B5-PJT?node-id=0%3A1&t=VtcNxEayndlPBLFS-1)
+### [개발 공통 참고 문서 (기능명세서, API DOCS, 제약사항, 버그 목록)](https://docs.google.com/spreadsheets/d/1BtzGSRUesQ0SHBUjZJilxCsOAPdC_fqs18zJybrNYmQ/edit?usp=sharing)
+### ERD 
+![100 PNG](https://user-images.githubusercontent.com/83942393/204210750-35f6e7ad-cf57-49f6-b955-92a96e8ee0fd.png)
+
 </br>
 
 # 💻 주요 기능
