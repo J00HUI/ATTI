@@ -39,6 +39,29 @@
 
 </br>
 
+## 💎 기술 스택
+<img src="https://user-images.githubusercontent.com/83942393/187019618-99c2dd8d-895a-4c46-b572-d009962eb73d.png" width="60%" height="60%">
+</br>
+
+<details>
+<summary>버전 정보</summary>
+<div markdown="1">
+<img src="https://user-images.githubusercontent.com/83942393/195986092-88c4b141-b69c-4277-ba58-5ea8285d00b4.png" width="50%" >
+</div>
+</details>
+</br>
+
+## 🛠 시스템 아키텍처
+| 시스템 구성도 |
+|:-------:|
+|<img src="https://user-images.githubusercontent.com/83942393/187021364-6c86d1f0-e95c-4c0f-9155-2fe578c270c1.png" width="50%" > |
+</br>
+
+| 배포 흐름도 |
+|:-------:|
+|<img src="https://user-images.githubusercontent.com/83942393/187021368-ac3dc959-1d0d-447c-8b3d-42ff179b7cd2.png" width="70%" height="70%"> |
+</br>
+
 # 💻 주요 기능
 ### 홈화면
 - 해당 서비스의 주요 기능을 확인할 수 있습니다.
@@ -225,29 +248,6 @@
 |  |
 |:-------:|
 |![회원탈퇴](https://user-images.githubusercontent.com/83942393/187181935-617956df-7fc2-486e-87f2-e48201c38fa9.gif) |
-</br>
-
-## 💎 기술 스택
-<img src="https://user-images.githubusercontent.com/83942393/187019618-99c2dd8d-895a-4c46-b572-d009962eb73d.png" width="60%" height="60%">
-</br>
-
-<details>
-<summary>버전 정보</summary>
-<div markdown="1">
-<img src="https://user-images.githubusercontent.com/83942393/195986092-88c4b141-b69c-4277-ba58-5ea8285d00b4.png" width="50%" >
-</div>
-</details>
-</br>
-
-## 🛠 시스템 아키텍처
-| 시스템 구성도 |
-|:-------:|
-|<img src="https://user-images.githubusercontent.com/83942393/187021364-6c86d1f0-e95c-4c0f-9155-2fe578c270c1.png" width="50%" > |
-</br>
-
-| 배포 흐름도 |
-|:-------:|
-|<img src="https://user-images.githubusercontent.com/83942393/187021368-ac3dc959-1d0d-447c-8b3d-42ff179b7cd2.png" width="70%" height="70%"> |
 </br>
 
 ## ⌚ 협업 (JIRA, Notion)
