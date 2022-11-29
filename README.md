@@ -29,7 +29,7 @@
 
 </br>
 
-## 기술 스택
+## 💎 기술 스택
 <img src="https://user-images.githubusercontent.com/83942393/187019618-99c2dd8d-895a-4c46-b572-d009962eb73d.png" width="60%" height="60%">
 </br>
 
